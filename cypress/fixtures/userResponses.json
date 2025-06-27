@@ -1,0 +1,17 @@
+{
+  "Bob": {
+    "id": "313",
+    "name": "Bob",
+    "job": "Designer"
+  },
+  "Alice": {
+    "id": "594",
+    "name": "Alice",
+    "job": "Developer"
+  },
+  "John": {
+    "id": "460",
+    "name": "John",
+    "job": "Engineer"
+  }
+}

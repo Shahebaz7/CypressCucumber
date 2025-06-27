@@ -1,0 +1,12 @@
+{
+    "baseUrl": "https://reqres.in/api",
+    "apiKey": "reqres-free-v1",
+    "headers": {
+      "Content-Type": "application/json",
+      "x-api-key": "reqres-free-v1"
+    },
+    "endpoints": {
+      "createUsers": "/api/users",
+      "getUsers": "/users/2"
+    }
+}  
