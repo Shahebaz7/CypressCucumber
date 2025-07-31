@@ -7,6 +7,6 @@
     },
     "endpoints": {
       "createUsers": "/api/users",
-      "getUsers": "/users/2"
+      "getUsers": "/users/"
     }
 }  

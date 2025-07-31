@@ -65,9 +65,3 @@ Then('the response should contain a job {string}', (expectedJob) => {
       cy.writeFile('cypress/fixtures/apiResponse.json', userResponses);
     }
   });
-  describe('Smoke Test', () => {
-    it('Prints logs', () => {
-      console.log('🔥 Console log from smoke test');
-      cy.log('📝 cy.log from smoke test');
-    });
-  });
