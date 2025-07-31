@@ -1,0 +1,15 @@
+name: build1
+'on': push
+env:
+  baseUrl: 'https://reqres.in/api'
+  apiToken: your_api_token_here
+  testUserId: replace_with_dynamic_id_if_needed
+  timeout: 10000
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Create User
+    needs:
+      x-api-key: reqres-free-v1
+      Content-Type: application/json
+    
