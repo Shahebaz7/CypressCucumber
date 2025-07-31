@@ -1,12 +1,9 @@
 name: Build
-
-on:
-  push:
-    branches:
-      - master
-
+'on': push
 jobs:
   build:
     name: Build
-    runs-on: windows
-    
+    runs-on: ubuntu-latest
+    steps:
+      - name: build-step
+        run: echo "Build Success"
